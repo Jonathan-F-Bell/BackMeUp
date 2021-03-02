@@ -1,0 +1,13 @@
+
+#main-content img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.37);
+    max-width: 100%;
+}
+
+.stepArrows {
+    border-radius: 5px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+}

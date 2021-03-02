@@ -1,0 +1,7 @@
+collections:
+  macOS:
+    sortby: step
+    output: true
+  windows:
+    sortby: step
+    output: true

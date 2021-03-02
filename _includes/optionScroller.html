@@ -1,0 +1,10 @@
+<div class="selection-card-container">
+    {% for item in site.data.devices.devices %}
+        <a href="{{ item.startPage }}">
+        <div class="selection-card">
+            <img src="{{ item.icon }}" alt="{{ item.title }} icon">
+            <p>{{ item.title }}</p>
+        </div>
+        </a>
+    {% endfor %}
+</div>

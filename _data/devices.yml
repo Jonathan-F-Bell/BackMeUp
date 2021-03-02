@@ -1,9 +1,9 @@
 devices:
 
   - title: MacOS
-    icon: /images/apple_logo_black.svg
-    folder: /content/mac
+    icon: /images/apple_logo_black_square.svg
+    startPage: /macOS/01.html
 
   - title: Windows
-    icon: /images/windows_logo_black.svg
-    folder: /content/windows
+    icon: /images/windows_logo_black_square.svg
+    startPage: /windows/01.html

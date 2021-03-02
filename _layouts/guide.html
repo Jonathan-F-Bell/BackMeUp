@@ -4,12 +4,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link  rel="stylesheet" href="/css/styles.css">
-    <link  rel="stylesheet" href="/css/homeStyles.css">
+    <link rel="stylesheet" href="/css/guideStyles.css">
     <link rel="stylesheet" href="https://use.typekit.net/oqv1iiu.css">
   </head>
   
   <body>
+    <div id="header">
+        <h1>BackMeUp.net</h1>
+    </div>
     <div id="main-content">
+      <div class="stepArrows">
+          forward | back
+      </div>
+
+      <h4>{{ page.title }}</h4>
+        
+      <img src="{{ page.image }}" alt="{{ page.imgAlt }}">
+
       {{ content }}
     </div>
   </body>
