@@ -6,27 +6,66 @@ html {
     font-size: 1.3125em;
 }
 
+body {
+    margin: 0 5vw;
+}
+
+body img {
+    max-height: 50vh;
+}
+
 h1 {
     font-size: 3rem;
     font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
 }
 
 h3 {
     font-size: 2rem;
     font-weight: 300;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 
 h4 {
     font-size: 1.5rem;
     font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 h5 {
     font-size: 1rem;
     font-weight: 500;
+    margin-top: 0rem;
+    margin-bottom: 0.2rem;
+    color: #404040;
+}
+
+.selection-card-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.selection-card {
+    width: 250px;
+    height: 300px;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.selection-card img {
+    display: block;
+    width: 50%;
+    margin: 40px auto;
 }
